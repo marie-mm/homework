@@ -1,0 +1,53 @@
+body {
+    margin: auto;
+    text-align: center;
+}
+
+.header{
+    width: 900px;
+    margin: 0 auto 100px;
+    padding-top: 75px;
+}
+.menu-list{
+    color:#626262;
+    font-family: 'Playfait Display', serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.menu-item{
+    display: inline-block;
+    margin-right: 150px;
+    width: 90px;
+}
+.menu-item:last-child{
+    margin-right: 0;
+}
+.menu-item:hover{
+    color:#03a9f4;
+}
+.main{
+    margin: auto;
+    width: 900px;
+}
+.article{
+    display: inline-block;
+    margin-bottom: 0;
+    width: 400px;
+    margin-right:30px; 
+    
+}
+.article:nth-child(3n+2){
+    margin-right: 0 ;
+   
+}
+.img{
+    width: 400px;
+    height: 300px;
+}
+
+.button{
+    margin: auto;
+    width: 120px;
+    height: 50px;
+}
