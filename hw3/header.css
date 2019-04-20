@@ -1,0 +1,40 @@
+.header{
+    width: 1110px;
+    margin: auto;
+}
+
+.logo_container {
+    display: inline-block;
+    margin-right: 605px;
+}
+.logo{
+    font-family: "Robots", sans-serif;
+    font-weight: 100;
+}
+.menu{
+    display: inline-block;
+}
+.logo::first-letter{
+    color:#1abc9c;
+    font-weight: 700;
+}
+.logo_link{
+    text-decoration: none;
+    color:#555252;
+    font-size: 30px;
+}
+.menu_list_link{
+    text-decoration: none;
+    color:black;
+    margin-right: 10px;
+}
+.menu_item{
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+.menu_list_link:hover{
+    color: #1abc9c;
+}

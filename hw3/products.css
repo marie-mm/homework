@@ -1,0 +1,64 @@
+
+.main{
+    width: 1110px;
+    margin:auto;
+}
+.products{
+    margin: auto;
+    text-align: center;
+    margin-top:111px;
+    
+}
+.products_title{
+    text-transform: uppercase;
+    font-family:  "Robots" , sans-serif;
+    font-weight: 900;
+    font-size:48px;
+    margin-bottom: 90px; 
+}
+.products_title::after {
+    content: '';
+    display: block;
+    background-color: #1abc9c;
+    height:7px;
+    width: 164px;
+    margin: auto;
+    margin-top: 32px;
+}
+.card{
+    display: inline-block;
+}
+.card:hover> .card_title{
+    background-color: #1abc9c;
+}
+.card:hover> .card_prise{
+    background-color:#7fd9c7;
+}
+.products-cards:hover> .product-name {
+    background-color: #1abc9c;
+}
+.img{
+    width: 255px;
+    height: 322px;
+    background-color: #e9f0fd;
+    margin-top:40px;
+    margin-right: 15px;
+}
+.card_title{
+    background-color: gray;
+    width: 200px;
+    height: 25px;;
+    font-size:18px;
+    display: inline-block;
+    margin-top: 18px;
+    color:#fff;
+
+}
+.card_prise{
+    background-color: rgb(163, 155, 155);
+    width: 54px;
+    height: 25px;;
+    font-size: 18px;
+    color:#fff;
+    display: inline-block;
+}
