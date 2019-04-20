@@ -53,14 +53,14 @@ body {
 }
 .text{
     font-size:14px;
-    font-weight: 14px;
+    font-weight: 14;
     color:#626262;
     text-align: justify;
     margin-top: 10px;
 }
 .first_text{
     font-family: "Ubuntu",sans-serif;
-    font-weight: 300px;
+    font-weight: 300;
     font-size: 14px;
     text-transform: uppercase;
     color:#b4ad9e;
@@ -69,7 +69,7 @@ body {
 .second_text{
     font-family: 'Playfait Display', serif;
     font-size: 30px;
-    font-weight: 400px;
+    font-weight: 400;
     color:#626262;
     margin-bottom: 40px;
 }
