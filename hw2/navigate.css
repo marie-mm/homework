@@ -37,7 +37,7 @@ body {
     margin-right:30px;
     height: 500px;
 }
-.article:nth-child(3n+2){
+.article:nth-child(2n+2){
     margin-right: 0 ;
    
 }
@@ -52,6 +52,24 @@ body {
     height: 50px;
 }
 .text{
+    font-size:14px;
+    font-weight: 14px;
+    color:#626262;
     text-align: justify;
     margin-top: 10px;
+}
+.first_text{
+    font-family: "Ubuntu",sans-serif;
+    font-weight: 300px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color:#b4ad9e;
+    margin-bottom: 30px;
+}
+.second_text{
+    font-family: 'Playfait Display', serif;
+    font-size: 30px;
+    font-weight: 400px;
+    color:#626262;
+    margin-bottom: 40px;
 }
