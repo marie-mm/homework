@@ -1,6 +1,5 @@
 body {
     margin: auto;
-    text-align: center;
 }
 
 .header{
@@ -10,7 +9,7 @@ body {
 }
 .menu-list{
     color:#626262;
-    font-family: 'Playfait Display', serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
