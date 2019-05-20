@@ -27,6 +27,8 @@
 }
 .card{
     display: inline-block;
+    width: 255px;
+    margin-right: 10px;
 }
 .card:hover> .card_title{
     background-color: #1abc9c;
@@ -46,19 +48,19 @@
 }
 .card_title{
     background-color: gray;
-    width: 200px;
-    height: 25px;;
+    width: 202px;
+    height: 40px;
     font-size:18px;
+    /* line-height: 40; */
     display: inline-block;
-    margin-top: 18px;
     color:#fff;
-
 }
 .card_prise{
     background-color: rgb(163, 155, 155);
-    width: 54px;
-    height: 25px;;
+    width: 53px;
+    height: 40px;;
     font-size: 18px;
+    /* line-height: 40; */
     color:#fff;
     display: inline-block;
 }
