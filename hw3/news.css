@@ -12,8 +12,11 @@
     margin-top:75px;
 }
 .text{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color:#818080;
     width: 350px;
-    font-size: 18pt;
 }
 .color_line{
     content: '';
@@ -30,11 +33,15 @@
     margin-top: 29px;
 }
 .button{
-    background-color: #1abc9c;
+    background-color: #4ec6ab;;
     width: 159px;
     height: 51px;
     margin-top: 10px;
     margin-right: 200px;
+    font-size:16px;
+    color:#fff;
+    border:none;
+    border-radius: 5px;
 }
 .lettrs{
     color:#fff;

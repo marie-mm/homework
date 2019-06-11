@@ -11,7 +11,7 @@
 }
 .products_title{
     text-transform: uppercase;
-    font-family:  "Robots" , sans-serif;
+    font-family:  "Roboto" , sans-serif;
     font-weight: 900;
     font-size:48px;
     margin-bottom: 90px; 
@@ -28,7 +28,12 @@
 .card{
     display: inline-block;
     width: 255px;
-    margin-right: 10px;
+    margin-right: 20px;
+    font-family: "Roboto" ,sans-serif;
+    font-weight: 900;
+}
+.card:nth-child(4n+4){
+    margin-right: 0;
 }
 .card:hover> .card_title{
     background-color: #1abc9c;
@@ -48,19 +53,23 @@
 }
 .card_title{
     background-color: gray;
-    width: 202px;
+    width: 200px;
     height: 40px;
     font-size:18px;
-    /* line-height: 40; */
     display: inline-block;
     color:#fff;
+    line-height: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #323232;
 }
 .card_prise{
-    background-color: rgb(163, 155, 155);
-    width: 53px;
+    background-color: #8c8c8c;
+    width: 54px;
     height: 40px;;
     font-size: 18px;
-    /* line-height: 40; */
     color:#fff;
     display: inline-block;
+    line-height: 40px;
 }

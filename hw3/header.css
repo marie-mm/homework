@@ -8,15 +8,18 @@
     margin-right: 605px;
 }
 .logo{
-    font-family: "Robots", sans-serif;
-    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #555252;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 .menu{
     display: inline-block;
 }
 .logo::first-letter{
     color:#1abc9c;
-    font-weight: 605;
+    font-weight: 900;
 }
 .logo_link{
     text-decoration: none;
@@ -37,4 +40,7 @@
 }
 .menu_list_link:hover{
     color: #1abc9c;
+}
+.menu_item:last-child{
+    margin-right: 0;
 }
